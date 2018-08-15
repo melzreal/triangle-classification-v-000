@@ -26,7 +26,9 @@ class Triangle
       :equilateral
     elsif left != right && left != bottom && right != bottom
       :scalene
-    elsif (left == right && right != bottom)  || (left == bottom && bottom != right)|| (right == bottom && bottom != left)
+    elsif (left == right && right != bottom)  
+       || (left == bottom && bottom != right)
+       || (right == bottom && bottom != left)
       :isosceles
     end
   end 
